@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Nerede Yaşıyorsunuz?"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#3c3c3c"
+        android:fontFamily="sans-serif-medium"
+        />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <RadioButton android:id="@+id/kirsal"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Kırsal"
+            android:textSize="20dp"/>
+        <RadioButton android:id="@+id/kentsel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Kentsel"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Çalışma Şekliniz"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#3c3c3c"
+        android:fontFamily="sans-serif-medium"
+        />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+        <RadioButton android:id="@+id/cocuk"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Çocuk"
+            android:textSize="20dp"/>
+        <RadioButton android:id="@+id/politika"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Politikacı"
+            android:textSize="20dp"/>
+        <RadioButton android:id="@+id/issiz"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Hiç Çalışmadım"
+            android:textSize="20dp"/>
+        <RadioButton android:id="@+id/ozel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Özel Sektör"
+            android:textSize="20dp"/>
+        <RadioButton android:id="@+id/esnaf"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Kendi İşim"
+            android:textSize="20dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Sigara İçme Durumunuz"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#3c3c3c"
+        android:fontFamily="sans-serif-medium"
+        />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <RadioButton android:id="@+id/icmemis"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Hiç İçmedim"
+            android:textSize="20dp"/>
+        <RadioButton android:id="@+id/icen"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="İçiyorum"
+            android:textSize="20dp"/>
+        <RadioButton android:id="@+id/birakan"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Bıraktım"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Testi Bitir"
+        android:background="#2f7df6"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:id="@+id/button"
+        />
+
+</LinearLayout>
